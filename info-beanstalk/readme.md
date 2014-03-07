@@ -24,7 +24,7 @@
 have listed in piconfig.py
 * Later it will dump all the processed articles to a file and errors to another file
 
-[1] : https://github.com/kr/beanstalkd
-[2] : https://github.com/earl/beanstalkc
-[3] : https://github.com/isagalaev/ijson
-[4] : http://www.nltk.org/
+[1]: https://github.com/kr/beanstalkd 
+[2]: https://github.com/earl/beanstalkc
+[3]: https://github.com/isagalaev/ijson
+[4]: http://www.nltk.org/
