@@ -37,7 +37,7 @@ class Consumer(object):
 
     def check_completion(self):
         """ Checks whether the script has completed all the tasks
-            in the tube """
+            in the tube. """
         try:
             connection = beanstalkc.Connection(host=hostname,port=port)
             connection.use('ACKS')
