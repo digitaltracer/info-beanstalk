@@ -2,15 +2,15 @@
 
 ## Synopsis
 
-	* used [Beanstalkd][1] for our message queue.
-	* used [Beanstalkc][2] for Python bindings.
-	* used [ijson][3] as JSON parser.
-	* used [nltk][4] to generate NERS
-	* used multiprocessing module in consumer.py
-	* used threading module in consumer_threads.py
-	* used multiple class instances as a substitute for threads in consumer_cs.py
-	* system is *fully worker-fault-tolerant*. Errors go to error tube.
-	* system is *partially server-fault-tolerant*.
+* used [Beanstalkd][1] for our message queue.
+* used [Beanstalkc][2] for Python bindings.
+* used [ijson][3] as JSON parser.
+* used [nltk][4] to generate NERS
+* used multiprocessing module in consumer.py
+* used threading module in consumer_threads.py
+* used multiple class instances as a substitute for threads in consumer_cs.py
+* system is *fully worker-fault-tolerant*. Errors go to error tube.
+* system is *partially server-fault-tolerant*.
 	
 
  - For ijson to work you need pyYaml installed in your system
